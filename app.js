@@ -38,3 +38,4 @@ prevButton.addEventListener('click', moveToPrevSlide);
 // Start the auto-play feature
 autoPlay();
 
+
