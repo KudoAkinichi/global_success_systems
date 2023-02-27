@@ -3,6 +3,8 @@
   padding: 0px 0px;
 }
 
+@media only screen and (max-width: 360px) {}
+
 html body {
   margin: 0px;
   padding: 0px;
@@ -19,8 +21,6 @@ ul {
   height: 60px;
   width: 1440px;
   margin-right: 0px;
-
-
 }
 
 .top-items {
@@ -75,7 +75,7 @@ ul {
   left: 60px;
 }
 
-.left3-0{
+.left3-0 {
   position: relative;
   top: 8px;
   left: 68px;
@@ -124,17 +124,25 @@ ul {
   height: 55px;
 }
 
-#search-bar {
+li #search-bar {
   position: relative;
   top: 2px;
-
   right: 55px;
-  border: 2px solid rgb(95, 89, 89);
-  border-radius: 14px;
+  border: 1px solid #454A6D;
+  border-radius: 5px;
   padding: 3px 17px;
   width: 220px;
   height: 50px;
+  background-color: #ecf3ff;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #454A6D;
 }
+
+
 
 #cart-icon {
   position: relative;
@@ -163,7 +171,7 @@ ul {
   display: inline-flex;
 }
 
- #train1 {
+#train1 {
   float: right;
   width: 10%;
   right: 600px;
@@ -1022,7 +1030,7 @@ footer {
 
 .quick-list {
   display: inline-block;
-  
+
 }
 
 .quick-list li {
@@ -1160,4 +1168,3 @@ footer {
   background-color: #ecf3ff;
   font-family: Arial;
 }
-
